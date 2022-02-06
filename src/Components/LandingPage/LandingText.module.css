@@ -1,0 +1,71 @@
+.landing-text-container {
+    text-align: center;
+    color: #ccc;
+    width: 60rem;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+}
+
+.landing-page-logo {
+    width: 500px;
+    max-width: 90%;
+    animation: logo-appear 2s forwards;
+}
+
+@keyframes logo-appear {
+    from { opacity: 0%; }
+    to { opacity: 100%; }
+}
+
+@media (min-width: 800px) {
+    .typed-text {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        overflow: hidden;
+        border-right: 1px solid #ccc;
+        /* display: table; */
+        white-space: nowrap;
+        font-size: 25px;
+        width: 0;
+        animation: 
+            typing 3s steps(40, end) forwards,
+            blink .8s steps(2, end) infinite;
+        animation-delay: 1s;
+    }
+    
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 510px }
+    }
+    
+    @keyframes blink {
+        from { border-color: transparent }
+        to { border-color: #ccc }
+    }
+}
+
+@media (max-width: 799px) {
+    .typed-text {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            overflow: hidden;
+            text-align: left;
+            word-wrap: break-word;
+            white-space: normal;
+            font-size: 25px;
+            width: 30rem;
+            opacity: 0%;      
+            max-width: 95%; 
+            animation: text-appear 2s forwards;
+            animation-delay: .5s;
+    }
+
+    @keyframes text-appear {
+        from { opacity: 0% }
+        to { opacity: 100%; }
+    }
+}

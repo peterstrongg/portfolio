@@ -1,0 +1,8 @@
+.background-anim-container {
+    position: absolute;
+    margin-top: -25px;
+    z-index: -1;
+    width: 100%;
+    height: 80vh;
+    background-color: transparent;
+}

@@ -1,0 +1,16 @@
+.portfolio-container {
+    color: rgb(49, 49, 49);
+    width: 70rem;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio-container h1 {
+    text-align: center;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    font-size: 30px;
+    padding-bottom: 15px;
+}

@@ -1,13 +1,35 @@
-body {
+/*
+pallete: 
+#24252A Jet
+#2F3061 Space Cadet
+#0E34A0 Egyptian Blue
+#5F5980 Purple Navy
+#DFDFDF Gainsboro
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Rajdhani:wght@300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0; 
+  /* font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Rajdhani', sans-serif; */
+
+  /* font-family: 'Nanum Gothic', sans-serif; */
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body {
+  margin: 0;
+}
+
+body {
+  margin: 0;  
+  background-color: #202020;
 }

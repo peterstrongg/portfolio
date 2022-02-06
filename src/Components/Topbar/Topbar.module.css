@@ -1,0 +1,97 @@
+.topbar li, a {
+    color: #DFDFDF;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px 10%;
+    /* background-image: linear-gradient(to bottom, black, transparent); */
+}
+
+.logo {
+    width: 200px;
+    margin-right: auto;
+}
+
+.name {
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 25px;
+    color: #DFDFDF;
+    white-space: pre-wrap;
+}
+
+.links a {
+    list-style: none;
+    font-size: 20px;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links li a, .name, .dropdown-btn { 
+    transition: all 0.3s ease 0s;
+}
+
+.link {
+    position: relative;
+}
+
+.link:hover {
+    color: #ccc;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 1px;
+    background-color: #ccc;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .link:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
+
+.dropdown-btn {
+    color: #DFDFDF;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.dropdown-btn:hover {
+    color: #5F5980;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) { 
+    .name{
+        font-size: 28px;
+    }
+
+    .links li a{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 804px) { 
+    .name{
+        font-size: 25px;
+    }
+}

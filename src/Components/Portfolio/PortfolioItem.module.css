@@ -1,0 +1,52 @@
+.portfolio-item {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 100%;
+    background-color: #DFDFDF;
+    color: rgb(49, 49, 49);
+}
+
+.portfolio-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-col {
+    flex: 4;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+.description-col { 
+    flex: 3;
+}
+.portfolio-item h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.portfolio-item p {
+    white-space: normal;
+    font-size: 15px;
+    font-weight: 500;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1300px) {
+    .portfolio-item {
+        max-width: 60rem;
+    }
+
+    .image-col {
+        flex: 0 0 100%;
+        padding-bottom: 25px;
+    }
+}
+

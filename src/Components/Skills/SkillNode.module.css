@@ -1,0 +1,12 @@
+.skill-node {
+    text-align: center;
+    width: 100px;    
+}
+
+.skill-node img {
+    height: 80px;
+}
+
+.skill-node p {
+    font-size: 20px;
+}
