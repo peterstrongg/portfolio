@@ -14,11 +14,13 @@ const Contact = () => {
                     image={maillogo}
                     altMsg='linkedin logo'
                     description='Email'
+                    link='mailto:peterstrongdev@outlook.com'
                 /> 
                 <ContactNode 
                     image={linkedinlogo}
                     altMsg='linkedin logo'
                     description='Linkedin'
+                    link='https://www.linkedin.com/in/peter-strong-2440691ba/'
                 />                              
             </div>
         </div>
