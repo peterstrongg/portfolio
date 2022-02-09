@@ -36,9 +36,9 @@ const Topbar = () => {
             {(width >= COLLAPSE_THRESHOLD) && 
                 <nav>                   
                     <ul className={classes.links}>
-                        <li><a href="home" className={classes.link}>Portfolio</a></li>
-                        <li><a href="home" className={classes.link}>Skills</a></li>
-                        <li><a href="home" className={classes.link}>Contact</a></li>
+                        <li><a href="#portfolio" className={classes.link}>Portfolio</a></li>
+                        <li><a href="#skills" className={classes.link}>Skills</a></li>
+                        <li><a href="#contact" className={classes.link}>Contact</a></li>
                         <li><a href="home" className={classes.link}>Resume</a></li>
                     </ul>
                 </nav>

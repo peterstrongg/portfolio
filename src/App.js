@@ -7,7 +7,6 @@ function App() {
   return (  
     <React.Fragment>
       <LandingPage />
-      {/* <Topbar /> */}
       <InformationCard />
     </React.Fragment>
   );

@@ -7,9 +7,9 @@ import Contact from '../Contact/Contact';
 const InformationCard = () => {
     return(
         <div className={classes['info-card']}>
-            <Portfolio />
-            <Skills />
-            <Contact />
+            <div id="portfolio"><Portfolio /></div>           
+            <div id="skills"><Skills /></div>
+            <div id="contact"><Contact /></div>
         </div>
     );
 }
