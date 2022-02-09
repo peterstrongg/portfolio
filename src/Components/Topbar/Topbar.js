@@ -39,7 +39,7 @@ const Topbar = () => {
                         <li><a href="#portfolio" className={classes.link}>Portfolio</a></li>
                         <li><a href="#skills" className={classes.link}>Skills</a></li>
                         <li><a href="#contact" className={classes.link}>Contact</a></li>
-                        <li><a href="home" className={classes.link}>Resume</a></li>
+                        <li><a href="https://drive.google.com/file/d/1M_LvdXZfJ8LX475c2K6OdOSHfAE8iUOr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={classes.link}>Resume</a></li>
                     </ul>
                 </nav>
             }

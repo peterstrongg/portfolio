@@ -10,9 +10,9 @@ const DropdownModal = (props) => {
             <Card classList={classes['dropdown-modal']}>
                 <h1 onClick={props.hideDropdown} className={classes.exit}>&#10093;&#10093;</h1>
                 <ul className={classes['dropdown-links']}>
-                    <li><a href="home">[Portfolio]</a></li>
-                    <li><a href="home">[Skills]</a></li>
-                    <li><a href="home">[Contact]</a></li>
+                    <li><a href="#portfolio">[Portfolio]</a></li>
+                    <li><a href="#skills">[Skills]</a></li>
+                    <li><a href="#contact">[Contact]</a></li>
                     <li><a href="home">[Resume]</a></li>
                 </ul>
             </Card>
