@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './LandingText.module.css';
 
-import logo from '../../Assets/altlogo.png';
+import logo from '../../Assets/altlogo.png'
 import githublogo from '../../Assets/github_logo_white.png';
 import linkedinlogo from '../../Assets/linkedin_logo_white.png';
 
