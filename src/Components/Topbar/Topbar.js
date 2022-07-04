@@ -3,7 +3,7 @@ import classes from './Topbar.module.css';
 
 import DropdownModal from './DropdownModal';
 
-const COLLAPSE_THRESHOLD = 810;
+const COLLAPSE_THRESHOLD = 1050;
 
 const Topbar = () => {
     const [width, setWidth] = useState(window.innerWidth);
@@ -38,7 +38,8 @@ const Topbar = () => {
                     <ul className={classes.links}>
                         <li><a href="#portfolio" className={classes.link}>Portfolio</a></li>
                         <li><a href="#skills" className={classes.link}>Skills</a></li>
-                        <li><a href="#contact" className={classes.link}>Contact</a></li>
+                        <li><a href="#experience" className={classes.link}>Experience</a></li>
+                        <li><a href="#contact" className={classes.link}>Contact</a></li>              
                         <li><a href="https://drive.google.com/file/d/1M_LvdXZfJ8LX475c2K6OdOSHfAE8iUOr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={classes.link}>Resume</a></li>
                     </ul>
                 </nav>
