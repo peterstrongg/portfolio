@@ -1,4 +1,42 @@
 .exp-node-container {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
+    width: 52rem;
+    max-width: 100%;
+}
+
+.experience-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.exp-img {
+    background-color: #DFDFDF;
+
+}
+.exp-img img {
+    width: 12rem;
+    height: auto;
+    padding: 5px;
+}
+.exp-description {
+    /* margin-left: 15px; */
+    flex: 5;
+}
+.exp-description p {
+    margin: 0;
+    white-space: normal;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+@media (max-width: 900px){
+    .exp-img {
+        flex: 0 0 100%;
+    }
+    .exp-img img {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
