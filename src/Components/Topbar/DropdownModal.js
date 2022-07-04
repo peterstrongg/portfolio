@@ -10,10 +10,10 @@ const DropdownModal = (props) => {
             <Card classList={classes['dropdown-modal']}>
                 <h1 onClick={props.hideDropdown} className={classes.exit}>&#10093;&#10093;</h1>
                 <ul className={classes['dropdown-links']}>
-                    <li><a href="#portfolio">[Portfolio]</a></li>
-                    <li><a href="#skills">[Skills]</a></li>
-                    <li><a href="#contact">[Contact]</a></li>
-                    <li><a href="home">[Resume]</a></li>
+                    <li onClick={props.hideDropdown}><a href="#portfolio">[Portfolio]</a></li>
+                    <li onClick={props.hideDropdown}><a href="#skills">[Skills]</a></li>
+                    <li onClick={props.hideDropdown}><a href="#contact">[Contact]</a></li>
+                    <li onClick={props.hideDropdown}><a href="https://drive.google.com/file/d/1M_LvdXZfJ8LX475c2K6OdOSHfAE8iUOr/view" target="_blank" rel="noopener noreferrer">[Resume]</a></li>
                 </ul>
             </Card>
         </React.Fragment>

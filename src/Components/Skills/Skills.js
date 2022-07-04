@@ -12,6 +12,7 @@ import pythonlogo from '../../Assets/python_logo.png';
 import nodejslogo from '../../Assets/nodejs_logo.png';
 import gitlogo from '../../Assets/git_logo.png';
 import bootstraplogo from '../../Assets/bootstrap_logo.png';
+import anacondalogo from '../../Assets/anaconda.png';
 
 
 const SKILL_LIST = [
@@ -36,11 +37,6 @@ const SKILL_LIST = [
         name: 'ReactJS'
     },
     {
-        logo: nodejslogo,
-        altMsg: 'nodejslogo',
-        name: 'NodeJS'
-    },
-    {
         logo: cpluspluslogo,
         altMsg: 'c++logo',
         name: 'C++'
@@ -49,6 +45,11 @@ const SKILL_LIST = [
         logo: pythonlogo,
         altMsg: 'pythonlogo',
         name: 'Python'
+    },
+    {
+        logo: anacondalogo,
+        altMsg: 'anacondaLogo',
+        name: 'Anaconda'
     },
     {
         logo: gitlogo,

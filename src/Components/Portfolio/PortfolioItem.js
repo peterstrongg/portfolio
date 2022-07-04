@@ -13,11 +13,11 @@ const PortfolioItem = props => {
                 <div className={classes['description-col']}>
                     <h2>{props.projectName}</h2>
                     <p><b>Created With:</b> {props.languages}</p>
-                    <p>&emsp;{props.content}</p>
+                    <p className={classes['description']}>&emsp;{props.content}</p>
                     <div className={classes['project-links']}>
-                        <a href={props.demoLink} target="_blank" rel="noopener noreferrer">Live Demo</a> 
-                        <a href={props.codeLink} target="_blank" rel="noopener noreferrer">Code</a>   
-                    </div>                    
+                        {props.liveDemo && <a href={props.demoLink} target="_blank" rel="noopener noreferrer">Live Demo</a>}
+                        <a href={props.codeLink} target="_blank" rel="noopener noreferrer">Github Page</a>   
+                    </div>                  
                 </div>                 
             </div>
         </Card>
