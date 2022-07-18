@@ -40,7 +40,7 @@ const Topbar = () => {
                         <li><a href="#skills" className={classes.link}>Skills</a></li>
                         <li><a href="#experience" className={classes.link}>Experience</a></li>
                         <li><a href="#contact" className={classes.link}>Contact</a></li>              
-                        <li><a href="https://drive.google.com/file/d/1M_LvdXZfJ8LX475c2K6OdOSHfAE8iUOr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={classes.link}>Resume</a></li>
+                        <li><a href="https://drive.google.com/file/d/1zMIJ5iGvL-SV95c5FuvUMY4eXBp4ft0V/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={classes.link}>Resume</a></li>
                     </ul>
                 </nav>
             }

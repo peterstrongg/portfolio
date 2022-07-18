@@ -14,7 +14,7 @@ const DropdownModal = (props) => {
                     <li onClick={props.hideDropdown}><a href="#skills">[Skills]</a></li>
                     <li onClick={props.hideDropdown}><a href="#experience">[Experience]</a></li>
                     <li onClick={props.hideDropdown}><a href="#contact">[Contact]</a></li>
-                    <li onClick={props.hideDropdown}><a href="https://drive.google.com/file/d/1M_LvdXZfJ8LX475c2K6OdOSHfAE8iUOr/view" target="_blank" rel="noopener noreferrer">[Resume]</a></li>
+                    <li onClick={props.hideDropdown}><a href="https://drive.google.com/file/d/1zMIJ5iGvL-SV95c5FuvUMY4eXBp4ft0V/view?usp=sharing" target="_blank" rel="noopener noreferrer">[Resume]</a></li>
                 </ul>
             </Card>
         </React.Fragment>
